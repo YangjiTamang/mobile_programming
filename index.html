@@ -1,149 +1,403 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>BakeConnect | Your Dream Cake, Made Easy</title>
+    <title>BakeConnect | Premium Custom Cakes</title>
 
-    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
 
-    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 
-
 <body>
 
+<!-- NAVBAR -->
+<header class="navbar">
+    <div class="container nav-container">
 
-<!-- =========================
-     NAVBAR
-========================= -->
+        <a href="#" class="logo">
+            <span>B</span> BakeConnect
+        </a>
 
-<nav class="navbar">
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#bakeries">Bakeries</a>
+            <a href="#custom">Custom Cake</a>
+            <a href="#rewards">Rewards</a>
+            <a href="#how">How It Works</a>
+        </nav>
 
-    <div class="logo">
-        🧁 <span>Bake</span>Connect
+        <a href="#custom" class="nav-button">Order a Cake</a>
+
     </div>
-
-    <ul class="nav-links">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#features">Features</a></li>
-        <li><a href="#custom-cake">Custom Cake</a></li>
-        <li><a href="#rewards">Rewards</a></li>
-        <li><a href="#bakeries">For Bakeries</a></li>
-    </ul>
-
-    <a href="#custom-cake" class="nav-button">
-        Order Cake 🎂
-    </a>
-
-</nav>
+</header>
 
 
-
-<!-- =========================
-     HERO
-========================= -->
-
+<!-- HERO -->
 <section class="hero" id="home">
 
-    <div class="hero-text">
+    <div class="container hero-container">
 
-        <p class="small-title">
-            ✨ NEPAL'S MULTI-BAKERY MARKETPLACE ✨
-        </p>
+        <div class="hero-content">
 
-        <h1>
-            Your Dream Cake,
-            <span>Made Easy! 🎂</span>
-        </h1>
+            <p class="eyebrow">PREMIUM CAKES • NEPAL</p>
 
-        <p class="hero-description">
+            <h1>
+                Your Dream Cake,
+                <span>Perfectly Crafted.</span>
+            </h1>
 
-            Discover local bakeries, browse delicious treats,
-            upload your dream cake design, chat directly with
-            bakers, receive custom quotes, and get your cake
-            delivered safely.
+            <p class="hero-text">
+                Discover beautiful cakes from local bakeries, customize
+                your perfect design, and connect directly with expert
+                bakers — all in one place.
+            </p>
 
-        </p>
+            <div class="hero-buttons">
+                <a href="#bakeries" class="button primary">
+                    Explore Cakes
+                </a>
 
+                <a href="#custom" class="button secondary">
+                    Create Your Cake
+                </a>
+            </div>
 
-        <div class="hero-buttons">
+            <div class="hero-stats">
 
-            <a href="#features" class="primary-btn">
-                Explore Bakeries 🧁
-            </a>
+                <div>
+                    <strong>20+</strong>
+                    <span>Local Bakeries</span>
+                </div>
 
-            <a href="#custom-cake" class="secondary-btn">
-                Create Custom Cake 🎨
-            </a>
+                <div>
+                    <strong>100+</strong>
+                    <span>Cake Designs</span>
+                </div>
+
+                <div>
+                    <strong>4.8★</strong>
+                    <span>Customer Rating</span>
+                </div>
+
+            </div>
 
         </div>
 
 
-        <div class="hero-stats">
+        <div class="hero-image">
 
-            <div>
-                <h3>🏪 Multiple</h3>
-                <p>Local Bakeries</p>
+            <div class="cake-image">
+                <div class="cake-placeholder">
+                    <span>🎂</span>
+                </div>
             </div>
 
-            <div>
-                <h3>🎨 Custom</h3>
-                <p>Dream Cakes</p>
+            <div class="floating-card top-card">
+                <span>✦</span>
+                <div>
+                    <strong>Handcrafted</strong>
+                    <small>Made with care</small>
+                </div>
             </div>
 
-            <div>
-                <h3>🎟️ Rewards</h3>
-                <p>Stamp & Earn</p>
+            <div class="floating-card bottom-card">
+                <span>✓</span>
+                <div>
+                    <strong>Safe Delivery</strong>
+                    <small>Cake-safe packaging</small>
+                </div>
             </div>
 
         </div>
 
     </div>
 
+</section>
 
 
-    <!-- HERO CAKE -->
+<!-- TRUST -->
+<section class="trust">
+    <div class="container trust-container">
 
-    <div class="hero-visual">
+        <span>LOCAL BAKERIES</span>
+        <span>✦</span>
+        <span>CUSTOM CAKES</span>
+        <span>✦</span>
+        <span>DIRECT CHAT</span>
+        <span>✦</span>
+        <span>CUSTOM QUOTES</span>
+        <span>✦</span>
+        <span>SAFE DELIVERY</span>
 
-        <div class="floating cookie">
-            🍪
-        </div>
-
-        <div class="floating cupcake">
-            🧁
-        </div>
-
-        <div class="floating donut">
-            🍩
-        </div>
+    </div>
+</section>
 
 
-        <div class="cake-main">
+<!-- BAKERIES -->
+<section class="section" id="bakeries">
 
-            <div class="cake-emoji">
-                🎂
+    <div class="container">
+
+        <div class="section-heading">
+
+            <div>
+                <p class="eyebrow">DISCOVER</p>
+                <h2>Find Your Perfect Bakery</h2>
             </div>
 
-            <h2>
-                Create Your Dream Cake
-            </h2>
-
             <p>
-                Upload your idea and connect
-                with the perfect bakery!
+                Explore cakes from trusted local bakeries and
+                find something made especially for your occasion.
             </p>
 
-            <button>
-                ✨ Start Designing
+        </div>
+
+
+        <div class="bakery-grid">
+
+            <div class="bakery-card">
+
+                <div class="bakery-photo cake-one">
+                    🎂
+                </div>
+
+                <div class="bakery-info">
+
+                    <div class="card-title">
+                        <h3>Sweet Bakery</h3>
+                        <span>4.9 ★</span>
+                    </div>
+
+                    <p>Premium custom cakes</p>
+
+                    <div class="price-row">
+                        <span>From NPR 1,500</span>
+                        <a href="#custom">View</a>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="bakery-card">
+
+                <div class="bakery-photo cake-two">
+                    🍰
+                </div>
+
+                <div class="bakery-info">
+
+                    <div class="card-title">
+                        <h3>The Cake House</h3>
+                        <span>4.8 ★</span>
+                    </div>
+
+                    <p>Elegant celebration cakes</p>
+
+                    <div class="price-row">
+                        <span>From NPR 1,800</span>
+                        <a href="#custom">View</a>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="bakery-card">
+
+                <div class="bakery-photo cake-three">
+                    🧁
+                </div>
+
+                <div class="bakery-info">
+
+                    <div class="card-title">
+                        <h3>Butter & Cream</h3>
+                        <span>4.9 ★</span>
+                    </div>
+
+                    <p>Artisan cakes & desserts</p>
+
+                    <div class="price-row">
+                        <span>From NPR 1,600</span>
+                        <a href="#custom">View</a>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- FEATURES -->
+<section class="section light-section">
+
+    <div class="container">
+
+        <div class="center-heading">
+
+            <p class="eyebrow">WHY BAKECONNECT</p>
+
+            <h2>Everything You Need<br>For the Perfect Cake</h2>
+
+        </div>
+
+
+        <div class="feature-grid">
+
+            <div class="feature">
+                <span>01</span>
+                <h3>Discover Bakeries</h3>
+                <p>
+                    Browse cakes from different local bakeries
+                    in one convenient marketplace.
+                </p>
+            </div>
+
+            <div class="feature">
+                <span>02</span>
+                <h3>Custom Designs</h3>
+                <p>
+                    Upload your inspiration and describe exactly
+                    how you want your cake to look.
+                </p>
+            </div>
+
+            <div class="feature">
+                <span>03</span>
+                <h3>Talk to Bakers</h3>
+                <p>
+                    Chat directly with real bakery owners or
+                    staff about your design.
+                </p>
+            </div>
+
+            <div class="feature">
+                <span>04</span>
+                <h3>Custom Quotes</h3>
+                <p>
+                    Receive a personalized price based on
+                    your requirements.
+                </p>
+            </div>
+
+            <div class="feature">
+                <span>05</span>
+                <h3>Easy Ordering</h3>
+                <p>
+                    Accept your quotation and place your
+                    order without leaving the platform.
+                </p>
+            </div>
+
+            <div class="feature">
+                <span>06</span>
+                <h3>Safe Delivery</h3>
+                <p>
+                    Cakes are transported using suitable
+                    packaging and stable cake carriers.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- CUSTOM CAKE -->
+<section class="custom-section" id="custom">
+
+    <div class="container custom-container">
+
+        <div class="custom-image">
+
+            <div class="upload-box">
+
+                <div class="upload-icon">+</div>
+
+                <h3>Upload Your Inspiration</h3>
+
+                <p>
+                    Share a reference cake design
+                    with your bakery.
+                </p>
+
+                <button>Upload Image</button>
+
+            </div>
+
+        </div>
+
+
+        <div class="custom-content">
+
+            <p class="eyebrow">CUSTOM CAKE</p>
+
+            <h2>Bring Your Vision<br>To Life.</h2>
+
+            <p>
+                Have something specific in mind?
+                Tell your bakery exactly what you want
+                and create a cake that feels truly yours.
+            </p>
+
+
+            <div class="custom-options">
+
+                <div>
+                    <label>Cake Size</label>
+                    <select>
+                        <option>1 Pound</option>
+                        <option>2 Pounds</option>
+                        <option>3 Pounds</option>
+                        <option>4 Pounds</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label>Flavor</label>
+                    <select>
+                        <option>Vanilla</option>
+                        <option>Chocolate</option>
+                        <option>Red Velvet</option>
+                        <option>Black Forest</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label>Budget</label>
+                    <select>
+                        <option>NPR 1,500 - 2,000</option>
+                        <option>NPR 2,000 - 3,000</option>
+                        <option>NPR 3,000 - 5,000</option>
+                        <option>NPR 5,000+</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label>Delivery Date</label>
+                    <input type="date">
+                </div>
+
+            </div>
+
+            <button class="button primary full-button">
+                Find a Bakery
             </button>
 
         </div>
@@ -153,211 +407,71 @@
 </section>
 
 
+<!-- CHAT -->
+<section class="section" id="chat">
 
-<!-- =========================
-     TRUST
-========================= -->
+    <div class="container chat-container">
 
-<section class="trust">
+        <div class="chat-content">
 
-    <p>
-        🎀 Everything you need for the perfect celebration 🎀
-    </p>
+            <p class="eyebrow">DIRECT COMMUNICATION</p>
 
-    <div class="trust-items">
-
-        <span>🏪 Local Bakeries</span>
-
-        <span>🎂 Custom Cakes</span>
-
-        <span>💬 Direct Chat</span>
-
-        <span>💰 Custom Quotes</span>
-
-        <span>🚚 Safe Delivery</span>
-
-        <span>🎟️ Loyalty Rewards</span>
-
-    </div>
-
-</section>
-
-
-
-<!-- =========================
-     FEATURES
-========================= -->
-
-<section class="features" id="features">
-
-    <p class="section-tag">
-        🧁 WHY BAKECONNECT?
-    </p>
-
-    <h2>
-        Everything Cake Lovers Need
-        <span>In One Sweet Place 🍰</span>
-    </h2>
-
-
-    <div class="feature-grid">
-
-
-        <div class="feature-card">
-
-            <div class="feature-icon pink">
-                🏪
-            </div>
-
-            <h3>
-                Discover Bakeries
-            </h3>
+            <h2>Talk Directly<br>With Your Baker.</h2>
 
             <p>
-                Explore multiple local bakeries and
-                discover cakes and bakery items
-                from different sellers.
+                No need to move between Instagram, Facebook,
+                phone calls and messaging apps. Discuss your
+                cake directly with the bakery on BakeConnect.
             </p>
+
+            <ul>
+                <li>✓ Discuss design changes</li>
+                <li>✓ Ask about availability</li>
+                <li>✓ Receive a custom quotation</li>
+                <li>✓ Confirm your order</li>
+            </ul>
 
         </div>
 
 
+        <div class="chat-window">
 
-        <div class="feature-card">
+            <div class="chat-header">
 
-            <div class="feature-icon purple">
-                🎨
+                <div class="avatar">S</div>
+
+                <div>
+                    <strong>Sweet Bakery</strong>
+                    <small>Online</small>
+                </div>
+
             </div>
 
-            <h3>
-                Custom Cake Design
-            </h3>
 
-            <p>
-                Upload your dream cake image and
-                customize the details according
-                to your preferences.
-            </p>
+            <div class="messages">
 
-        </div>
+                <div class="message bakery">
+                    Hello! We can create this cake for your
+                    celebration.
+                </div>
 
+                <div class="message customer">
+                    Can you make the flowers pink instead?
+                </div>
 
+                <div class="message bakery">
+                    Of course! The customized cake would
+                    be NPR 2,500.
+                </div>
 
-        <div class="feature-card">
+                <div class="quote">
+                    <small>CUSTOM QUOTE</small>
+                    <strong>NPR 2,500</strong>
 
-            <div class="feature-icon yellow">
-                💬
+                    <button>Accept Quote & Order</button>
+                </div>
+
             </div>
-
-            <h3>
-                Chat with Bakers
-            </h3>
-
-            <p>
-                Communicate directly with actual
-                bakery owners or staff about
-                your custom order.
-            </p>
-
-        </div>
-
-
-
-        <div class="feature-card">
-
-            <div class="feature-icon blue">
-                💰
-            </div>
-
-            <h3>
-                Custom Quotations
-            </h3>
-
-            <p>
-                Receive a personalized quotation
-                based on your cake design and
-                requirements.
-            </p>
-
-        </div>
-
-
-
-        <div class="feature-card">
-
-            <div class="feature-icon green">
-                📦
-            </div>
-
-            <h3>
-                Easy Ordering
-            </h3>
-
-            <p>
-                Confirm your preferred bakery
-                and manage your custom order
-                in one place.
-            </p>
-
-        </div>
-
-
-
-        <div class="feature-card">
-
-            <div class="feature-icon peach">
-                🚚
-            </div>
-
-            <h3>
-                Cake-Safe Delivery
-            </h3>
-
-            <p>
-                Specialized packaging and stable
-                delivery options help reduce
-                damage during transportation.
-            </p>
-
-        </div>
-
-
-
-        <div class="feature-card">
-
-            <div class="feature-icon pink">
-                🎟️
-            </div>
-
-            <h3>
-                Stamp Rewards
-            </h3>
-
-            <p>
-                Collect loyalty stamps from eligible
-                purchases and unlock a free cake
-                after completing your stamp card.
-            </p>
-
-        </div>
-
-
-
-        <div class="feature-card">
-
-            <div class="feature-icon purple">
-                ⭐
-            </div>
-
-            <h3>
-                Bakery Ratings
-            </h3>
-
-            <p>
-                View ratings and reviews to help
-                you choose the right bakery
-                for your celebration.
-            </p>
 
         </div>
 
@@ -366,258 +480,171 @@
 </section>
 
 
+<!-- REWARDS -->
+<section class="rewards-section" id="rewards">
 
-<!-- =========================
-     CUSTOM CAKE
-========================= -->
+    <div class="container rewards-container">
 
-<section class="custom-cake" id="custom-cake">
+        <div class="reward-info">
 
+            <p class="eyebrow">BAKECONNECT REWARDS</p>
 
-    <div class="custom-image">
-
-        <div class="custom-card">
-
-            <div class="upload-icon">
-                📸
-            </div>
-
-            <h3>
-                Upload Your Cake Idea
-            </h3>
+            <h2>Collect Stamps.<br>Enjoy a Free Cake.</h2>
 
             <p>
-                Show your bakery exactly
-                what you want!
+                Every eligible cake order brings you one step
+                closer to a complimentary cake.
             </p>
 
+            <div class="progress-text">
+                <span>Your Progress</span>
+                <strong>5 / 10 Stamps</strong>
+            </div>
 
-            <div class="fake-upload">
+            <div class="progress">
+                <div></div>
+            </div>
 
-                + Upload Reference Image
+            <p class="small-text">
+                Complete 10 eligible orders to unlock your
+                free cake reward.
+            </p>
+
+        </div>
+
+
+        <div class="stamp-card">
+
+            <div class="stamp-header">
+                <div>
+                    <span>BAKECONNECT</span>
+                    <h3>Sweet Rewards</h3>
+                </div>
+
+                <span class="gold-star">✦</span>
+            </div>
+
+
+            <div class="stamps">
+
+                <div class="stamp filled">✓</div>
+                <div class="stamp filled">✓</div>
+                <div class="stamp filled">✓</div>
+                <div class="stamp filled">✓</div>
+                <div class="stamp filled">✓</div>
+
+                <div class="stamp">6</div>
+                <div class="stamp">7</div>
+                <div class="stamp">8</div>
+                <div class="stamp">9</div>
+                <div class="stamp">10</div>
 
             </div>
 
 
-            <div class="mini-details">
-
-                <div>
-                    🎂 Cake Size
-                </div>
-
-                <div>
-                    🍓 Flavor
-                </div>
-
-                <div>
-                    🎨 Colors
-                </div>
-
-                <div>
-                    💌 Message
-                </div>
-
+            <div class="reward-bottom">
+                <span>10 orders</span>
+                <strong>1 FREE CAKE</strong>
             </div>
 
         </div>
 
     </div>
 
+</section>
 
 
-    <div class="custom-text">
+<!-- HOW IT WORKS -->
+<section class="section" id="how">
 
-        <p class="section-tag">
-            🎨 YOUR CAKE, YOUR WAY
-        </p>
+    <div class="container">
 
-        <h2>
-            Bring Your Dream Cake
-            <span>To Life! 🎂</span>
-        </h2>
+        <div class="center-heading">
+
+            <p class="eyebrow">HOW IT WORKS</p>
+
+            <h2>A Simple Way To<br>Order Your Perfect Cake</h2>
+
+        </div>
+
+
+        <div class="steps">
+
+            <div class="step">
+                <span>01</span>
+                <h3>Choose</h3>
+                <p>Explore bakeries and cake designs.</p>
+            </div>
+
+            <div class="step">
+                <span>02</span>
+                <h3>Customize</h3>
+                <p>Upload your design and requirements.</p>
+            </div>
+
+            <div class="step">
+                <span>03</span>
+                <h3>Connect</h3>
+                <p>Chat directly with your baker.</p>
+            </div>
+
+            <div class="step">
+                <span>04</span>
+                <h3>Order</h3>
+                <p>Accept your quote and enjoy your cake.</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- DELIVERY -->
+<section class="delivery">
+
+    <div class="container delivery-container">
+
+        <div>
+
+            <p class="eyebrow">CAKE-SAFE DELIVERY</p>
+
+            <h2>Because Beautiful Cakes<br>Deserve a Safe Journey.</h2>
+
+            <p>
+                Our concept focuses on specialized cake delivery,
+                using stable carriers and suitable packaging to
+                reduce the risk of damage during transportation.
+            </p>
+
+        </div>
+
+        <div class="delivery-icon">
+            ✓
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- BAKERY CTA -->
+<section class="bakery-cta">
+
+    <div class="container">
+
+        <p class="eyebrow">FOR BAKERIES</p>
+
+        <h2>Turn Your Craft Into<br>New Opportunities.</h2>
 
         <p>
-
-            Have a cake design saved from Instagram,
-            Pinterest, or somewhere else?
-
-            Upload your reference image and tell
-            the bakery exactly what you want.
-
+            Join BakeConnect, showcase your cakes, receive
+            custom orders and communicate directly with customers.
         </p>
 
-
-        <div class="custom-list">
-
-            <div>
-                🍰 Choose Cake Size
-            </div>
-
-            <div>
-                🍓 Select Your Favorite Flavor
-            </div>
-
-            <div>
-                🎨 Pick Colors & Decorations
-            </div>
-
-            <div>
-                💌 Add a Personalized Message
-            </div>
-
-            <div>
-                💰 Set Your Budget
-            </div>
-
-            <div>
-                📅 Choose Delivery Date & Time
-            </div>
-
-        </div>
-
-
-        <a href="#" class="primary-btn">
-            Create My Cake 🎂
-        </a>
-
-    </div>
-
-</section>
-
-
-
-<!-- =========================
-     CHAT SECTION
-========================= -->
-
-<section class="chat-section">
-
-
-    <div class="chat-text">
-
-        <p class="section-tag">
-            💬 TALK TO REAL BAKERS
-        </p>
-
-        <h2>
-            No Bots,
-            <span>Just Real Conversations! 💕</span>
-        </h2>
-
-        <p>
-
-            Discuss your cake directly with the actual
-            bakery owner or staff.
-
-            Ask questions, request modifications,
-            check availability, and receive a
-            customized price quotation.
-
-        </p>
-
-
-        <div class="chat-points">
-
-            <p>
-                💬 Discuss your cake design
-            </p>
-
-            <p>
-                ✏️ Request modifications
-            </p>
-
-            <p>
-                📅 Check availability
-            </p>
-
-            <p>
-                💰 Receive custom price quotations
-            </p>
-
-            <p>
-                ✅ Accept your quote and order
-            </p>
-
-        </div>
-
-    </div>
-
-
-
-    <!-- CHAT MOCKUP -->
-
-    <div class="chat-box">
-
-
-        <div class="chat-header">
-
-            <div class="profile">
-                🧁
-            </div>
-
-            <div>
-
-                <h4>
-                    Sweet Bakery
-                </h4>
-
-                <p>
-                    🟢 Online
-                </p>
-
-            </div>
-
-        </div>
-
-
-
-        <div class="messages">
-
-
-            <div class="message customer">
-
-                Hi! Can you make this cake design? 🎂
-
-            </div>
-
-
-            <div class="message bakery">
-
-                Yes! We can make it for you 🩷
-
-            </div>
-
-
-            <div class="message bakery">
-
-                We can also change the
-                flowers to pink.
-
-            </div>
-
-
-            <div class="message bakery">
-
-                The cake is available
-                for your selected date!
-
-            </div>
-
-
-            <div class="message bakery quote">
-
-                💰 Custom Quote:
-                <strong>NPR 2,500</strong>
-
-            </div>
-
-        </div>
-
-
-        <button class="accept-btn">
-
-            ✓ Accept Quote & Order
-
+        <button class="button light-button">
+            Join BakeConnect
         </button>
 
     </div>
@@ -625,547 +652,51 @@
 </section>
 
 
-
-<!-- =========================
-     LOYALTY REWARDS
-========================= -->
-
-<section class="loyalty" id="rewards">
-
-
-    <div class="loyalty-content">
-
-        <p class="section-tag">
-            🎟️ BAKECONNECT SWEET REWARDS
-        </p>
-
-
-        <h2>
-            Collect Stamps,
-            <span>Get a Free Cake! 🎂</span>
-        </h2>
-
-
-        <p class="loyalty-description">
-
-            Every eligible purchase earns you a stamp.
-            Keep ordering your favorite cakes and
-            complete your loyalty card to unlock
-            a sweet free-cake reward!
-
-        </p>
-
-
-
-        <!-- STAMP CARD -->
-
-        <div class="stamp-card">
-
-
-            <div class="stamp filled">
-                ✓
-            </div>
-
-            <div class="stamp filled">
-                ✓
-            </div>
-
-            <div class="stamp filled">
-                ✓
-            </div>
-
-            <div class="stamp filled">
-                ✓
-            </div>
-
-            <div class="stamp filled">
-                ✓
-            </div>
-
-
-            <div class="stamp">
-                6
-            </div>
-
-
-            <div class="stamp">
-                7
-            </div>
-
-
-            <div class="stamp">
-                8
-            </div>
-
-
-            <div class="stamp">
-                9
-            </div>
-
-
-            <div class="stamp">
-                10
-            </div>
-
-
-            <div class="free-cake">
-                🎁
-            </div>
-
-        </div>
-
-
-
-        <div class="stamp-progress">
-
-            <div class="progress-text">
-
-                <span>
-                    5 / 10 Stamps
-                </span>
-
-                <span>
-                    50%
-                </span>
-
-            </div>
-
-
-            <div class="progress-bar">
-
-                <div class="progress-fill"></div>
-
-            </div>
-
-        </div>
-
-
-
-        <p class="stamp-note">
-
-            🎉 Complete 10 stamps and claim your
-            free cake reward!
-
-        </p>
-
-
-        <div class="reward-details">
-
-            <div>
-                🎂
-                <strong>1 Stamp</strong>
-                <small>Per eligible order</small>
-            </div>
-
-            <div>
-                🎟️
-                <strong>10 Stamps</strong>
-                <small>Complete your card</small>
-            </div>
-
-            <div>
-                🎁
-                <strong>Free Cake</strong>
-                <small>Redeem your reward</small>
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-
-<!-- =========================
-     HOW IT WORKS
-========================= -->
-
-<section class="how-it-works" id="how-it-works">
-
-
-    <p class="section-tag">
-        🍰 SIMPLE & EASY
-    </p>
-
-
-    <h2>
-        How BakeConnect Works
-        <span>✨</span>
-    </h2>
-
-
-
-    <div class="steps">
-
-
-        <div class="step">
-
-            <div class="step-number">
-                1
-            </div>
-
-            <div class="step-icon">
-                📸
-            </div>
-
-            <h3>
-                Upload
-            </h3>
-
-            <p>
-                Upload your dream cake design.
-            </p>
-
-        </div>
-
-
-
-        <div class="step">
-
-            <div class="step-number">
-                2
-            </div>
-
-            <div class="step-icon">
-                🎨
-            </div>
-
-            <h3>
-                Customize
-            </h3>
-
-            <p>
-                Add flavor, size, decoration
-                and budget.
-            </p>
-
-        </div>
-
-
-
-        <div class="step">
-
-            <div class="step-number">
-                3
-            </div>
-
-            <div class="step-icon">
-                💬
-            </div>
-
-            <h3>
-                Chat
-            </h3>
-
-            <p>
-                Talk directly with your bakery.
-            </p>
-
-        </div>
-
-
-
-        <div class="step">
-
-            <div class="step-number">
-                4
-            </div>
-
-            <div class="step-icon">
-                💰
-            </div>
-
-            <h3>
-                Get Quote
-            </h3>
-
-            <p>
-                Receive a personalized
-                price quotation.
-            </p>
-
-        </div>
-
-
-
-        <div class="step">
-
-            <div class="step-number">
-                5
-            </div>
-
-            <div class="step-icon">
-                🚚
-            </div>
-
-            <h3>
-                Enjoy!
-            </h3>
-
-            <p>
-                Receive your cake safely
-                and celebrate!
-            </p>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-
-<!-- =========================
-     DELIVERY
-========================= -->
-
-<section class="delivery">
-
-
-    <div class="delivery-icon">
-        🚚🎂
-    </div>
-
-
-    <div>
-
-        <p class="section-tag">
-            🚚 CAKE-SAFE DELIVERY
-        </p>
-
-
-        <h2>
-            Your Cake Deserves
-            <span>Extra Care 💗</span>
-        </h2>
-
-
-        <p>
-
-            Cakes are delicate and can easily be damaged
-            during transportation.
-
-            BakeConnect focuses on suitable packaging,
-            stable transportation, and cake-safe carriers
-            to help protect your order.
-
-        </p>
-
-
-        <div class="delivery-features">
-
-            <span>
-                📦 Secure Packaging
-            </span>
-
-            <span>
-                🛵 Stable Transport
-            </span>
-
-            <span>
-                🎂 Cake-Safe Carrier
-            </span>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-
-<!-- =========================
-     BAKERY OWNER
-========================= -->
-
-<section class="bakery-section" id="bakeries">
-
-
-    <p class="section-tag">
-        🏪 FOR BAKERY OWNERS
-    </p>
-
-
-    <h2>
-        Grow Your Bakery
-        <span>With BakeConnect 🧁</span>
-    </h2>
-
-
-    <p class="bakery-description">
-
-        Join our multi-bakery marketplace and connect
-        with customers looking for delicious,
-        creative, and customized cakes.
-
-    </p>
-
-
-
-    <div class="bakery-benefits">
-
-
-        <div>
-
-            <span>
-                📈
-            </span>
-
-            <h3>
-                Reach More Customers
-            </h3>
-
-        </div>
-
-
-
-        <div>
-
-            <span>
-                🎂
-            </span>
-
-            <h3>
-                Receive Custom Orders
-            </h3>
-
-        </div>
-
-
-
-        <div>
-
-            <span>
-                💬
-            </span>
-
-            <h3>
-                Chat Directly
-            </h3>
-
-        </div>
-
-
-
-        <div>
-
-            <span>
-                📋
-            </span>
-
-            <h3>
-                Manage Orders Easily
-            </h3>
-
-        </div>
-
-    </div>
-
-
-    <a href="#" class="primary-btn">
-        Join BakeConnect 🧁
-    </a>
-
-</section>
-
-
-
-<!-- =========================
-     FINAL CTA
-========================= -->
-
-<section class="final-cta">
-
-
-    <div class="cta-decor left">
-        🧁
-    </div>
-
-    <div class="cta-decor right">
-        🍰
-    </div>
-
-
-    <p>
-        ✨ READY TO CREATE SOMETHING SWEET? ✨
-    </p>
-
-
-    <h2>
-
-        Your Imagination.
-        <br>
-
-        Your Design.
-        <br>
-
-        <span>Your Cake! 🎂</span>
-
-    </h2>
-
-
-    <a href="#custom-cake" class="cta-button">
-
-        Create Your Dream Cake 💗
-
-    </a>
-
-</section>
-
-
-
-<!-- =========================
-     FOOTER
-========================= -->
-
+<!-- FOOTER -->
 <footer>
 
+    <div class="container footer-container">
 
-    <h2>
-        🧁 BakeConnect
-    </h2>
+        <div>
+            <a href="#" class="logo footer-logo">
+                <span>B</span> BakeConnect
+            </a>
+
+            <p>
+                Connecting cake lovers with
+                local bakeries across Nepal.
+            </p>
+        </div>
 
 
-    <p>
-        Connecting Cake Lovers with Local Bakeries 💕
-    </p>
+        <div class="footer-links">
 
+            <div>
+                <h4>Explore</h4>
+                <a href="#bakeries">Bakeries</a>
+                <a href="#custom">Custom Cake</a>
+                <a href="#rewards">Rewards</a>
+            </div>
 
-    <div class="footer-links">
+            <div>
+                <h4>About</h4>
+                <a href="#how">How It Works</a>
+                <a href="#">For Bakeries</a>
+                <a href="#">Contact</a>
+            </div>
 
-        <a href="#home">
-            Home
-        </a>
-
-        <a href="#features">
-            Features
-        </a>
-
-        <a href="#custom-cake">
-            Custom Cake
-        </a>
-
-        <a href="#rewards">
-            Rewards
-        </a>
-
-        <a href="#bakeries">
-            For Bakeries
-        </a>
+        </div>
 
     </div>
 
 
-    <p class="copyright">
-
-        © 2026 BakeConnect | University Project
-
-    </p>
+    <div class="footer-bottom">
+        <div class="container">
+            © 2026 BakeConnect. University Project.
+        </div>
+    </div>
 
 </footer>
 
-
 </body>
-
 </html>
