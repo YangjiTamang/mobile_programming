@@ -1,0 +1,178 @@
+<html>
+    <head> 
+        <title> Student</title>
+      
+    
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+     
+    <script>
+        $(document).ready(function(){
+            $("#button1").click(function(){
+                $("#show").text("Dolly");
+  });
+        $("#button2").click(function(){
+            $("#show").text("Yangji Tamang");
+  });
+        
+            $("#button3").click(function(){
+        $("#output").text($("#bio").html(" I am Yangji Tamang, a BSc IT student interested in programming, web development, and technology"));
+});     
+        $("#button4").click(function(){
+            $("#output").text($("#nickname").val());
+            
+            
+  });  
+    $("#button5").click(function(){
+            $("#nickname").val("jQuery Pro");
+            
+            
+  });
+  $("#button6").click(function(){
+    $("#profile_card").addClass("highlighted");
+    
+  });
+     $("#button7").click(function(){
+    $("#profile_card").removeClass("highlighted");
+  });
+     $("#button8").click(function(){
+    $("#profile_card").toggleClass("dark_mode");
+  });
+    $("#button9").click(function(){
+    $("#photo").toggleClass("rounded");
+  });
+   $("#button10").click(function(){
+    $("#profile_card").css("background","#e74c3c");
+  });
+  $("#button11").click(function(){
+    $("#profile_card").css("background","white");
+  });
+  $("#button12").click(function(){
+  $("#photo").hide("slow");
+});
+$("#button13").click(function(){
+  $("#photo").show("slow");
+});
+$("#button14").click(function(){
+    $("#bio").toggle();
+  });
+  $("#button15").click(function(){
+  $("#profile_card").fadeOut();
+             });
+             $("#button16").click(function(){
+  $("#profile_card").fadeIn();
+             });
+            $("#button17").click(function(){
+                $("#profile_card").fadeTo("slow",0.5);
+             });
+             $("#button18").click(function(){
+                $("#slide_list").slideUp();
+             });
+              $("#button19").click(function(){
+                $("#slide_list").slideDown();
+             });
+              $("#button20").click(function(){
+                $("#slide_list").slideToggle();
+             });
+             $("#button21").click(function(){
+                $("#profile_card").animate({ marginLeft: '200px' },1000).animate({marginLeft:'0px'},1000);
+});
+            $("#photo").mouseenter(function(){
+               $ (this).addClass("shadow");
+               
+            });
+            $("#photo").mouseleave(function(){
+               $ (this).removeClass("shadow");
+               
+            });
+            $("#nickname").keypress(function(){
+               $ ("#output").text("press key");
+               
+            });
+
+            
+            });
+
+       
+       
+    </script>
+    <style>
+
+.highlighted {
+  color: blue;
+}
+.dark_mode {
+    background-color: black;
+    color:white;
+}
+.rounded{
+    border-radius: 50%;
+}
+.shadow {
+    box-shadow: 0 0 15px black;
+}
+
+
+</style>
+    </head>
+    <body>
+        <div id="profile_card">
+        <img id="photo" src="photo.png"  width="300" height="333" >
+       
+        <h1  id="h1">Hello welcome!!</h1>
+        
+        <p  id="show"></p> 
+        <p  id="bio"></p>
+        <p >Nickname: <input type="text" id="nickname" value=""></p>
+        <p id="output"></p>
+      <ul id="slide_list">
+        <h2>Skills</h2>
+        <li>Python</li>
+        <li>Java</li>
+        <li>Sql</li>
+
+        
+      </ul>
+        
+    
+</div>
+        <button id="button1">Show Name</button>
+        <button id="button2">Change Name</button>
+        <button id="button3">Show Bio</button>
+        <button id="button4">Get input </button>
+        <button id="button5">Set input</button><br><br>
+        <button id="button6">Highlight Card</button>
+        <button id="button7">Remove Highlight</button>
+        <button id="button8">Toggle Dark Mode</button>
+        <button id="button9">Toggle Rounded</button>
+        <button id="button10">Red Background</button><br><br>
+        <button id="button11">Reset Background</button>
+        <button id="button12">Hide Photo</button>
+        <button id="button13">Show Photo</button>
+        <button id="button14">Toggle Bio</button>
+        <button id="button15">Fade Out Card</button><br><br>
+        <button id="button16">Fade In Card</button>
+        <button id="button17">Fade to 50%</button>
+        <button id="button18">Slide Up Skills</button>
+        <button id="button19">Slide Down Skills</button>
+        <button id="button20">Slide Toggle Skills</button>
+        <button id="button21">Animate Card</button><br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </body>
+</html>
