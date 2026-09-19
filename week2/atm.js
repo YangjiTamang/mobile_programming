@@ -43,7 +43,7 @@ function checkPin(){
 function deposit(){
      if(pinverified == false){
        
-        document.getElementById("result").innerHTML="Please enter PIN number";
+        document.getElementById("result").innerHTML="Please enter PIN numberadd";
 
         }
         else{
