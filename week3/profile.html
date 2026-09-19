@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Profile card</title> </head>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  
+        <img src="image.jpg"  width="300" height="222" >
+
+        <p> Yangji Tamang</p>
+        <p> Tokha, Kathmandu</p>
+        <script>
+        $(document).ready(function(){
+        $("#show").click(function(){
+        $("#qr").show();
+    });
+
+    $("#close").click(function(){
+        $("#qr").hide();
+    });
+});
+</script>  
+  </head> 
+    <body> 
+       
+
+        <img id="qr" src="qr.png"  width="500" height="333" style="display:none;">
+         <button id="show">show</button>
+        <button id="close">close</button>
+    </body> 
+  
+</html>
