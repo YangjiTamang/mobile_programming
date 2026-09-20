@@ -1,0 +1,70 @@
+
+<html>
+
+<head>
+    <title>Box Animation</title>
+
+    <style>
+        #area {
+            width: 600px;
+            height: 400px;
+            border: 2px solid black;
+            position: relative;
+        }
+
+        #box {
+            width: 80px;
+            height: 80px;
+            background-color: black;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+        }
+    </style>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+
+            $("#button").click(function(){
+
+                $("#box").animate({top:"320px"},1000,function(){
+
+                    $("#box").css("background-color","blue");
+
+                    $("#box").animate({left:"520px"},1000,function(){
+
+                        $("#box").css("background-color","purple");
+
+                        $("#box").animate({top:"0px"},1000,function(){
+
+                            $("#box").css("background-color","pink");
+
+                            $("#box").animate({left:"0px"},1000);
+
+                        });
+
+                    });
+
+                });
+
+            });
+
+        });
+    </script>
+</head>
+
+<body>
+
+    <h2>Box Animation</h2>
+
+    <button id="button">Start</button>
+
+    <div id="area">
+        <div id="box"></div>
+    </div>
+
+</body>
+
+</html>
